@@ -31,4 +31,9 @@ export class AppComponent {
 
   // video: string = 'https://www.youtube-nocookie.com/embed/m_J9OViGkB8?controls=0';
   video = 'm_J9OViGkB8?controls=0';
+
+  pass = 'Ivan';
+  activar: boolean = true;
+
+
 }

@@ -145,6 +145,15 @@
       <td> capitalizado: false </td>
       <td>{{nombre2 | capitalizado:false }}</td>
     </tr>
+    <tr>
+      <th scope="row">23</th>
+      <td>{{pass}}</td>
+      <td>
+        password: {{activar}} <br>
+        <button class="btn btn-sm btn-outline-primary" (click)="activar = !activar">alternar</button>
+      </td>
+      <td>{{pass | password:activar }}</td>
+    </tr>
 
   </tbody>
 </table>
